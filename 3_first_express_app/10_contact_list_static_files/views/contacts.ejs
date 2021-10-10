@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>contact list</h1>
+    <table>
+        <% for(var i = 0; i<contact_list.length;i++) { %>
+        <tr id = "c<%= i %>">
+            <td><%= contact_list[i].name %></td>
+            <td><%= contact_list[i].contact %></td>
+            <td>
+                <form action="/delete-contact" method="post">
+                <button type="submit" name = "del" value=<%= i %>>Remove</button></form>
+            </td>
+        </tr>
+        <% } %>
+    </table>
+    <form action="/create-contact" method="post">
+    <input type="text" id = "item1" name="name" placeholder="Enter name" required>
+    <input type="text" id = "item2" name = "contact" placeholder="Contact number" required>
+    <button id = "add" type="submit">Add</button>
+    </form>
+
+    <script type = "text/javascript" src="JavaScript.js"></script>
+</body>
+</html>

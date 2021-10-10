@@ -1,0 +1,1 @@
+let notySuccess=function(t,e){t?new Noty({theme:"relax",text:e,type:"success",layout:"topRight",timeout:1500}).show():new Noty({theme:"relax",text:e,type:"error",layout:"topRight",timeout:1500}).show()};

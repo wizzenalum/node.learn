@@ -1,0 +1,203 @@
+/*
+  These are some base styles
+*/
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+    --color:rebeccapurple;
+  }
+  
+  html {
+    /* border-box box model allows us to add padding and border to our elements without increasing their size */
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  }
+  
+  /* inheriting the box-sizing property from the html */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    user-select: none;
+    background-image: url("../image/topography.svg"),linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    /* background: white; */
+    background-attachment: fixed;
+    letter-spacing: -1px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 5px 0;
+  }
+  a{
+    text-decoration: none;
+  }
+ 
+  h1{
+      width:100%;
+      text-align: center;
+      font-size: 3rem;
+  }
+
+  /************ styling the tasks  */
+  .tasks{
+    padding:50px 0px 0px 0px;
+  }
+  .tasks>form{
+      /* background-color: red; */
+      display: grid;
+      grid-auto-rows: repeat(1fr);
+      justify-content: center;
+      font-size: 2rem;
+
+    }
+    .task{
+      border: 3px solid rgba(255, 255, 255, 0.548);
+      border-radius: 50px;
+      padding:5px 10px;
+      display: grid;
+      min-width: 50vw;
+      grid-template-columns: 1fr auto auto;
+      align-items: center;
+  }
+  .task>a>div {
+    color:rgba(255, 0, 0, 0.582);
+    /* transform:rotate(45deg); */
+/*     background-color: gray; */
+    width:min-content;
+    margin-left:10px;
+    font-size: 3rem;
+    position: relative;
+    bottom:50%;  
+  }
+
+  .time{
+    color:rgba(68, 63, 63, 0.556);
+    /* background-color: red; */
+    position:relative;
+    justify-self: right;
+    font-size: 1.5rem;
+    padding:10px;
+    font-family: monospace;
+  }
+
+  .check{
+    border-radius: 50%;
+    width:20px;
+  }
+
+
+  #cat{
+    color:rgba(255, 255, 255, 0.638);
+    font-size: 2rem;
+  }
+
+  #des::first-letter{
+    text-transform: capitalize;
+  }
+
+  /************* create form styling */
+  #create-form{
+    margin:auto;
+    text-align: center;
+    border-top:5px solid #2727272a;
+    border-radius: 30%;
+    padding-top:5px;
+  }
+  #category-selection,#date-selection,#description{
+    margin:5px;
+    padding:5px 10px;
+    font-size: 2rem;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.548);
+    border-radius: 50px;
+    color: var(--black);
+
+
+  }
+  /* ******    styles for button-container */
+  .button-container{
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:30px;
+    /* place-items: center center; */
+    justify-content: center;
+  }
+  .button{
+    justify-self: center;
+    padding:5px 10px; 
+    font-size: 2rem;
+    background-color: salmon;
+    border: 3px solid rgba(255, 255, 255, 0.275);
+    border-width: 0px 3px 3px 0px;
+      border-radius: 50px;
+      padding:5px 10px; 
+    color:var(--black);
+    text-transform: capitalize;
+  }
+  .button:hover{
+    background-color: rgba(250, 128, 114, 0.659);
+
+  }
+  .button:active{
+    background-color: #ca0e0e1e;
+  }
+
+/**************** checkbox self styling */
+.checkbox{
+  display: grid;
+  grid-template-columns: min-content auto;
+  align-items: center;
+  gap:2em;
+  color:var(--color);
+  font-size: 2.5rem;
+}
+.checkbox_input>input{
+  width:1em;
+  height: 1em;
+  grid-area: "check box";
+  opacity: 0;
+}
+.checkbox_input{
+  display: grid;
+  grid-template-areas: "check box";
+}
+.checkbox__control{
+  width:1em;
+  height: 1em;
+  border:.14em solid currentColor;
+  border-radius: .25em;
+  display: grid;
+  grid-area: "check box";
+  /* transform: translateY(-.1em); */
+}
+.checkbox__label{
+  transform: translateY(.1em);
+}
+.checkbox__control>svg{
+  transition: transform 0.1s ease-in 25ms;
+  transform: scale(0);
+  transform-origin: bottom left;
+}
+.checkbox_input>input:checked + .checkbox__control>svg{
+  transform:scale(1);
+}
+.checkbox_input>input:focus + .checkbox__control{
+  box-shadow: 0 0 0 0.05em rgba(255, 255, 255, 0.207), 0 0 0.15em 0.1em currentColor;
+}

@@ -1,0 +1,12 @@
+{
+  "scripts/chat_engine.js": "scripts/chat_engine-9fbb848943.js",
+  "scripts/home_comment.js": "scripts/home_comment-e169c80a8d.js",
+  "scripts/home_post.js": "scripts/home_post-ad33eff876.js",
+  "scripts/home_profile.js": "scripts/home_profile-8ce622403e.js",
+  "scripts/jquery-3.6.0.js": "scripts/jquery-3-79c095cc20.6.0.js",
+  "scripts/layout.js": "scripts/layout-653cea8e8e.js",
+  "styles/chat-box.css": "styles/chat-box-08aac568e9.css",
+  "styles/home-style.css": "styles/home-style-7c16b96d57.css",
+  "styles/layout.css": "styles/layout-b790261c5f.css",
+  "styles/signup.css": "styles/signup-7040a2f9b8.css"
+}

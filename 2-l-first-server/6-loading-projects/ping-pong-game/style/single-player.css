@@ -1,0 +1,43 @@
+.ball{
+    background: var(--ball-surface);
+    width: var(--ball-size);
+    height: var(--ball-size);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 1px -1px 5px 2px rgba(0, 0, 0, 0.371);
+}
+.player{
+    background: var(--player-backbround);
+    position: absolute;
+    width:200px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.563);
+}
+#player1{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.679);
+    top:0px;
+}
+#player2{
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.679);
+    bottom:0px;
+}
+
+#message{
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.563);
+    color: rgba(255, 255, 255, 0.878);
+    font-size: 3rem;
+    font-family: monospace;
+    text-align: center;
+    
+}
+.message{
+    display: grid; 
+    justify-content: center;
+    align-content: center;
+}
+.hide-message{
+    display: none;
+}

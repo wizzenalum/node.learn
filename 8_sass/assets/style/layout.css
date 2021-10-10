@@ -1,0 +1,31 @@
+body {
+  min-width: calc(100vw - 100px);
+  margin: 50px;
+  background-color: lightsalmon;
+  text-align: center;
+  display: grid;
+  font-size: 1.5rem; }
+  body a {
+    text-decoration: none;
+    color: #313131; }
+  body header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(100px, auto);
+    gap: 5%; }
+    body header a {
+      font-size: 1.3em;
+      color: red; }
+      body header a:hover {
+        color: rebeccapurple; }
+  body input {
+    font-size: 2rem;
+    margin: 5px; }
+  body button {
+    background-color: brown;
+    color: bisque;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 5px; }

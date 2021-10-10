@@ -1,0 +1,1 @@
+console.log("this is fist thing in theprofile "),po3="nothing";{function handleFiles(){const e=this.files;console.log(e);const n=new FileReader;var i;n.onload=(i=$("img")[0],function(e){i.src=e.target.result}),n.readAsDataURL(e[0])}profileInput=$("input[type='file']"),profileInput[0].addEventListener("change",handleFiles,!1)}

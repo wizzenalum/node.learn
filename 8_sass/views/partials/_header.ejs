@@ -1,0 +1,15 @@
+<!-- here this is used as partail for that only we used underscore before name to defferentiate -->
+<header>
+    <div>
+    <% if(locals.url!="/"){%><a href="/">HOME</a> <% } %>
+      </div>
+    
+    <% if(locals.user){%>
+        <div><a href="/user/signout">SIGN OUT</a></div>
+         <div><a href="/user/profile"><%=user.name %></a></div>
+    <%} else{%>
+            <a href="/user/signin">Sign in</a>
+            <a href="/user/signup">Sign up</a>
+    <% } %>
+
+</header>

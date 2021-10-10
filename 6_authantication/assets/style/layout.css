@@ -1,0 +1,16 @@
+body{
+    background-color: lightsalmon;
+    text-align: center;
+}
+input{
+    font-size: 2rem;
+    margin:5px;
+}
+button{
+    background-color: brown;
+    color: bisque;
+    border:none;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin:5px;
+}

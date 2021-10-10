@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>contact list</h1>
+    <table>
+        <% for(var i of contact_list) { %>
+        <tr id = "c<%= i %>">
+            <td><%= i.name %></td>
+            <td><%= i.contact %></td>
+            <td>
+            <!-- way 1 -->
+                <!-- here i used the params for sending the mobile number. -->
+                <!-- <a href="/delete-contact/<%= i.contact %>"> <button type="submit" name = "del" value=<%= i %>>Remove</button></a> -->
+            <!-- way 2 -->
+                <!-- here i am using the string query -->
+                <a href="/delete-contact/?phone=<%= i.contact %>"> <button type="button" name = "del" value=<%= i %>>Remove</button></a>
+            </td>
+        </tr>
+        <% } %>
+    </table>
+    <form action="/create-contact" method="post">
+    <input type="text" id = "item1" name="name" placeholder="Enter name" required>
+    <input type="text" id = "item2" name = "contact" placeholder="Contact number" required>
+    <button id = "add" type="submit">Add</button>
+    </form>
+
+    <script type = "text/javascript" src="JavaScript.js"></script>
+</body>
+</html>

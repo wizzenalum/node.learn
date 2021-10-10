@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-wizzy</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1>TODO-WIZZY</h1>
+    <div class = "tasks">
+        <form action="/delete-multi" method="get">
+            let i = 1; for(let ele of todoList){  var date = ele.dueDate; if(date!=null){
+                
+            <div class = "task">
+                <label class = "checkbox">
+                    <span class="check checkbox_input">
+                        <input type="checkbox" name="id" value="
+                        ele.id 
+                        ">
+                        <span class="checkbox__control">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" >
+                            <path fill="none" stroke="currentColor" stroke-width="3" d="M1.73 12.91l6.37 6.37L22.79 4.59"/></svg>
+                        </span>
+                    </span>
+                    <span id = "des" class="checkbox__label">
+                        ele.description 
+                     </span>
+                </label>
+                <span id = "cat">
+                    ele.category 
+                </span>
+                <a href="/delete/?id=
+                ele.id 
+                "><div>+</div></a>
+            </div>
+            <div class = "time">
+                date.getDate()+"-"+(date.getMonth()+1)+"-"+(date.getFullYear()) 
+             </div>
+            <button id = "delete-button" class = "button"type="submit">delete</button>  
+        </form>
+    </div>
+    <!-- this is from which will used to create tasks -->
+    <form action="/create" method="post" id = "create-form">
+        <button id = "add-button" class= "button" type="submit">+</button>    
+    <input  required type="text" name="description" id = "description" placeholder="enter the description">
+    <input  required type="date" name = "due" id = "date-selection" placeholder="select date">
+    <select required  id="category-selection" name="category">
+        <option value="no" selected >Category</option>
+        <option value="Home">Home</option>
+        <option value="Office">Office</option>
+        <option value="Study">Study</option>
+        <option value="Fun">Fun time</option>
+    </select>
+    </form>
+</body>
+</html>
+
+  <!-- physics ashish arora physics galaxy   -->
+<!--   math mohit tyagi   -->
+<!--  fitjee, jee advance  -->

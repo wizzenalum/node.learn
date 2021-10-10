@@ -1,0 +1,15 @@
+{
+  "name": "contact-list",
+  "version": "0.0.3",
+  "description": "how to add static files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ghanshyam",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

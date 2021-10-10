@@ -1,0 +1,15 @@
+{
+  "name": "contact_lsit",
+  "version": "0.0.3",
+  "description": "this section learn deleting the stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ghanshyam",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

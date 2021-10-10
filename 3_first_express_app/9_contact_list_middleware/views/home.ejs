@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1>contact list is following</h1>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>contact</th>
+        </tr>
+        <% for(var a of contact_list) { %>
+        <tr>
+            <td><%= a.name %></td>
+            <td><%= a.contact %></td>
+        </tr>
+        <% } %>
+    </table>
+    <form action="/create-contact" method="post">
+    <input type="text" id = "item1" name="name" placeholder="enter name">
+    <input type="text" id = "item2" name = "contact" placeholder="contact number">
+    <button type="submit">add contact</button>
+    </form>
+</body>
+</html>

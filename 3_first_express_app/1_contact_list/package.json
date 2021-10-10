@@ -1,0 +1,14 @@
+{
+  "name": "constact_list",
+  "version": "0.0.1",
+  "description": "creating contact list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ghanshyam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

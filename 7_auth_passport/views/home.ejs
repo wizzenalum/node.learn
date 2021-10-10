@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="style/home-style.css">
+<h1> hi to codial users this is from model </code> </h1>
+<p>
+    <a href="/user/signup">sign up</a> <a href="/user/signin">sign in</a>
+</p>
+<% var i = 1;
+for(var user of users){ %> 
+    <dl>
+        <dt>user<%= i %> </dt>
+        <dl><%=user.name+ "   "+user.email+"    "+user.password %></dl>
+    </dl>
+    <% i++ } %>
+
+<script src="script/home-script.js"></script>

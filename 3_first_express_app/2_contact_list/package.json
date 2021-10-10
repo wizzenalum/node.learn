@@ -1,0 +1,14 @@
+{
+  "name": "contact-list",
+  "version": "0.0.0",
+  "description": "try again",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ghanshyam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,9 @@
+<h1> hi <%= user.name %> </h1>
+<h2> your id is <%= user.id %></h2>
+<h2> your email is <%= user.email %></h2>
+<h2> your passoword is <%= user.passoword %></h2>
+
+o<% for( var a in locals) { 
+    %><br><%= locals.a + "   "  %> <%
+    for(var e in a) { %><%= e + "   " %> <% }} %> 
+

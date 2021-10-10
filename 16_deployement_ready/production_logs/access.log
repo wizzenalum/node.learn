@@ -1,0 +1,364 @@
+::ffff:127.0.0.1 - - [26/Aug/2021:16:33:09 +0000] "GET / HTTP/1.1" 200 1738 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:33:09 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:33:52 +0000] "GET /user/signup HTTP/1.1" 200 1800 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:33:52 +0000] "GET /user/scripts/layout.js HTTP/1.1" 404 161 "http://localhost:5000/user/signup" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:33:53 +0000] "GET /user/scripts/layout.js HTTP/1.1" 404 161 "http://localhost:5000/user/signup" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:33:53 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/user/signup" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:25 +0000] "GET /user/signup HTTP/1.1" 200 1800 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:34 +0000] "GET /user/signin HTTP/1.1" 200 1770 "http://localhost:5000/user/signup" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:34 +0000] "GET /user/scripts/layout.js HTTP/1.1" 404 161 "http://localhost:5000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:35 +0000] "GET /user/scripts/layout.js HTTP/1.1" 404 161 "http://localhost:5000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:35 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:38 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:5000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:50 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWhSkh5-d8Yn841uJrs6pwzrcYW0a6hwuwt435MNokGsW7rwMuOVXmgXglSm7Zrm0Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1" 302 46 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:50 +0000] "GET / HTTP/1.1" 200 3215 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:34:52 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:35:19 +0000] "GET / HTTP/1.1" 200 2986 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [26/Aug/2021:16:35:20 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+[0mGET / [32m200[0m 152.526 ms - 4010[0m
+[0mGET /favicon.ico [33m404[0m 30.480 ms - 150[0m
+[0mGET / [32m200[0m 34.199 ms - 4010[0m
+[0mGET / [32m200[0m 35.876 ms - 4010[0m
+[0mGET / [32m200[0m 67.121 ms - 4010[0m
+[0mGET /favicon.ico [33m404[0m 5.656 ms - 150[0m
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET / HTTP/1.1" 200 1738 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /styles/layout.css HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:51 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:52 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:52 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:52 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:52 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:02:44:52 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+[0mGET / [32m200[0m 190.889 ms - 4015[0m
+[0mGET /favicon.ico [33m404[0m 12.441 ms - 150[0m
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:17 +0000] "GET / HTTP/1.1" 200 1743 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:17 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:17 +0000] "GET /styles/layout.css HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:17 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:17 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:18 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:20 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:14:48 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET / HTTP/1.1" 200 1799 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /public/styles/layout.css HTTP/1.1" 404 163 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /styles/layout.css HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /public/styles/layout.css HTTP/1.1" 404 163 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:07 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:08 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:08 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:08 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:15:08 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:17 +0000] "GET / HTTP/1.1" 200 1799 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:17 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /styles/layout.css HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /public/styles/layout.css HTTP/1.1" 404 163 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /public/styles/layout.css HTTP/1.1" 404 163 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:18 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:16:19 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+[0mGET / [32m200[0m 179.931 ms - 4071[0m
+[0mGET /public/styles/layout.css [33m404[0m 26.783 ms - 163[0m
+[0mGET /public/styles/layout.css [33m404[0m 8.353 ms - 163[0m
+[0mGET /favicon.ico [33m404[0m 5.335 ms - 150[0m
+[0mGET / [32m200[0m 68.632 ms - 4073[0m
+[0mGET /favicon.ico [33m404[0m 6.919 ms - 150[0m
+[0mGET / [32m200[0m 34.935 ms - 4015[0m
+[0mGET /favicon.ico [33m404[0m 4.647 ms - 150[0m
+[0mGET / [32m200[0m 144.673 ms - 4015[0m
+[0mGET /favicon.ico [33m404[0m 13.340 ms - 150[0m
+[0mGET / [32m200[0m 135.732 ms - 4015[0m
+[0mGET /favicon.ico [33m404[0m 9.914 ms - 150[0m
+[0mGET / [32m200[0m 146.412 ms - 4027[0m
+[0mGET /styles/layout-b790261c5f.css [33m404[0m 14.538 ms - 167[0m
+[0mGET /styles/layout-b790261c5f.css [33m404[0m 5.208 ms - 167[0m
+[0mGET /favicon.ico [33m404[0m 6.591 ms - 150[0m
+[0mGET / [32m200[0m 152.003 ms - 4034[0m
+[0mGET /public/styles/layout-b790261c5f.css [33m404[0m 14.178 ms - 174[0m
+[0mGET /public/styles/layout-b790261c5f.css [33m404[0m 6.339 ms - 174[0m
+[0mGET /favicon.ico [33m404[0m 4.547 ms - 150[0m
+[0mGET / [32m200[0m 57.761 ms - 4034[0m
+[0mGET /public/styles/layout-b790261c5f.css [33m404[0m 8.802 ms - 174[0m
+[0mGET /public/styles/layout-b790261c5f.css [33m404[0m 3.892 ms - 174[0m
+[0mGET /favicon.ico [33m404[0m 3.765 ms - 150[0m
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:27 +0000] "GET / HTTP/1.1" 200 1755 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /styles/layout-b790261c5f.css HTTP/1.1" 404 167 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /styles/layout-b790261c5f.css HTTP/1.1" 404 167 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:28 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:29 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:29 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:27:29 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET / HTTP/1.1" 200 1755 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:37 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:38 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:38 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:30:38 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:13 +0000] "GET / HTTP/1.1" 200 1755 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:13 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/layout.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:14 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:15 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:15 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:32:15 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+[0mGET / [32m200[0m 155.205 ms - 4015[0m
+[0mGET /favicon.ico [33m404[0m 11.493 ms - 150[0m
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET / HTTP/1.1" 200 1767 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET /styles/home-style.css HTTP/1.1" 404 160 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:04 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:05 +0000] "GET /scripts/home_post.js HTTP/1.1" 404 159 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:05 +0000] "GET /scripts/home_comment.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:05 +0000] "GET /scripts/chat_engine.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:37:05 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:23 +0000] "GET / HTTP/1.1" 200 1818 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:23 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:23 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:24 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:24 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:24 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:46 +0000] "GET / HTTP/1.1" 200 1818 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:46 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:46 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:46 +0000] "GET /scripts/jquery-3.6.0.js HTTP/1.1" 404 162 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:47 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:44:47 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:45:55 +0000] "GET / HTTP/1.1" 200 1830 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:45:55 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:45:55 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:45:55 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:48:06 +0000] "GET / HTTP/1.1" 200 1839 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:48:07 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:48:07 +0000] "GET /styles/home-style-7c16b96d57.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 356 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:48:07 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:49:58 +0000] "GET / HTTP/1.1" 200 1830 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:00 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:17 +0000] "GET /user/signin HTTP/1.1" 200 1823 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:18 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:24 +0000] "POST /user/create-session HTTP/1.1" 302 68 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:24 +0000] "GET /user/signin HTTP/1.1" 200 2058 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:25 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:29 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:43 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWhaqy8s5XoUasJs5iWyfpvdrA2lToqR6Rx5O-i8zSDYm151fkMai2xwgBv_utrItw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1" 302 46 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:43 +0000] "GET / HTTP/1.1" 200 3319 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:44 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:45 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:50:45 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:01 +0000] "GET / HTTP/1.1" 200 3090 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:01 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:02 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:02 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:26 +0000] "GET / HTTP/1.1" 200 3090 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:27 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:27 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:28 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:41 +0000] "GET / HTTP/1.1" 200 3090 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:41 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:42 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:51:43 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:53:15 +0000] "GET / HTTP/1.1" 200 3091 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:53:16 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:53:16 +0000] "GET /styles/chat-box-08aac568e9.css%3E%3C/head%3E%3Cbody%3E%20%20%20%3C!--%20here%20this%20is%20used%20as%20partail%20for%20that%20only%20we%20used%20underscore%20before%20name%20to%20defferentiate%20--%3E%3Cheader%20id= HTTP/1.1" 404 354 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:53:17 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:54:42 +0000] "GET / HTTP/1.1" 200 3092 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:03:54:43 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+[0mGET / [32m200[0m 300.782 ms - 4019[0m
+[0mGET /favicon.ico [33m404[0m 45.555 ms - 150[0m
+[0mGET /user/signin [32m200[0m 16.396 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 10.971 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 12.499 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 25.120 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 20.341 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 5.187 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 6.186 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 7.463 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 7.063 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 4.760 ms - 150[0m
+[0mPOST /user/create-session [36m302[0m 568.359 ms - 68[0m
+[0mGET /user/signin [32m200[0m 10.716 ms - 2010[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 5.244 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 8.829 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 12.543 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 10.185 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 7.782 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 10.319 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 10.501 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 4.518 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 16.547 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 7.412 ms - 150[0m
+[0mGET / [32m200[0m 48.298 ms - 4019[0m
+[0mGET /favicon.ico [33m404[0m 7.381 ms - 150[0m
+[0mGET /user/signup [32m200[0m 9.055 ms - 1805[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 7.389 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 26.165 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 17.339 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 14.685 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 8.271 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 14.422 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 7.360 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 7.661 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 5.947 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 7.723 ms - 150[0m
+[0mGET /user/signin [32m200[0m 27.277 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 8.352 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 14.520 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 11.588 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 14.114 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 3.147 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 13.084 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 15.359 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 10.715 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 4.432 ms - 150[0m
+[0mGET /user/auth/google [36m302[0m 8.457 ms - 0[0m
+[0mGET /user/auth/google/callback?code=4%2F0AX4XfWh4n4fFwmQnNqm8hwBPp3pPqJorURiEHzU0AiepaiVqeHrk_q9dWeiqBlrjV7-S9Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [36m302[0m 881.809 ms - 46[0m
+[0mGET / [32m200[0m 49.501 ms - 7445[0m
+[0mGET /favicon.ico [33m404[0m 13.599 ms - 150[0m
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:50 +0000] "GET / HTTP/1.1" 200 1831 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:51 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:55 +0000] "GET / HTTP/1.1" 200 1831 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:55 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:57 +0000] "GET /user/signup HTTP/1.1" 200 1853 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:57 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/signup" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:17:59 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:00 +0000] "GET /user/signin HTTP/1.1" 200 1823 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:00 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:03 +0000] "GET /user/forget-password HTTP/1.1" 200 1621 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:03 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/forget-password" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:08 +0000] "GET /user/signin HTTP/1.1" 200 1823 "http://localhost:8000/user/forget-password" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:09 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:11 +0000] "GET /user/auth/google HTTP/1.1" 302 0 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:17 +0000] "GET /user/auth/google/callback?code=4%2F0AX4XfWjkZtRvYpjMW3EJWRSZlAEgcRmYL8VRJAUep5Fs1ksJFErU5b1ApCR495eot5Iedw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent HTTP/1.1" 302 46 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:17 +0000] "GET / HTTP/1.1" 200 3321 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:18 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:22 +0000] "POST /post/create-post HTTP/1.1" 200 610 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:25 +0000] "GET / HTTP/1.1" 200 4837 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:29 +0000] "POST /post/create-post HTTP/1.1" 200 608 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:31 +0000] "GET / HTTP/1.1" 200 6580 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:18:32 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:19:15 +0000] "GET /user/signout HTTP/1.1" 302 68 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:19:15 +0000] "GET /user/signin HTTP/1.1" 200 2049 "http://localhost:8000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:19:16 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/user/signin" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0"
+::ffff:127.0.0.1 - - [27/Aug/2021:06:35:07 +0000] "GET / HTTP/1.1" 200 4165 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0"
+[0mGET / [32m200[0m 268.639 ms - 4019[0m
+[0mGET /favicon.ico [33m404[0m 61.259 ms - 150[0m
+[0mGET /user/signin [32m200[0m 14.271 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 11.511 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 27.305 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 35.405 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 54.259 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 5.755 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 11.587 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 18.547 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 8.062 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 5.337 ms - 150[0m
+[0mPOST /user/create-session [36m302[0m 249.111 ms - 46[0m
+[0mGET / [32m200[0m 127.140 ms - 7591[0m
+[0mGET /favicon.ico [33m404[0m 40.539 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 19.582 ms - 150[0m
+[0mGET /favicon.ico [33m404[0m 10.629 ms - 150[0m
+[0mGET / [32m200[0m 128.384 ms - 7362[0m
+[0mGET /favicon.ico [33m404[0m 23.730 ms - 150[0m
+[0mGET / [32m200[0m 61.576 ms - 7362[0m
+[0mGET /favicon.ico [33m404[0m 20.200 ms - 150[0m
+[0mGET / [0m-[0m - ms - -[0m
+[0mGET / [0m-[0m - ms - -[0m
+[0mGET / [32m200[0m 536.278 ms - 6710[0m
+[0mGET /uploads/users/avatars/avatar-1632756398130 [33m404[0m 39.324 ms - 181[0m
+[0mGET /favicon.ico [33m404[0m 55.223 ms - 150[0m
+[0mGET /user/signin [32m200[0m 45.879 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 24.089 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 42.326 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 60.670 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 66.487 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 13.736 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 20.974 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 11.509 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 10.955 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 14.532 ms - 150[0m
+[0mGET /user/signin [32m200[0m 41.747 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 8.870 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 23.929 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 26.310 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 31.633 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 7.777 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 14.342 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 11.142 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 7.365 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 10.864 ms - 150[0m
+[0mGET /user/signin [32m200[0m 94.819 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 58.971 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 42.812 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 54.934 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 59.963 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 8.445 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 18.592 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 21.514 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 11.387 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 19.613 ms - 150[0m
+[0mGET /user/signin [32m200[0m 42.907 ms - 1775[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 37.083 ms - 167[0m
+[0mGET /user/styles/signup.css [33m404[0m 42.314 ms - 161[0m
+[0mGET /user/styles/layout.css [33m404[0m 67.284 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 50.641 ms - 161[0m
+[0mGET /user/scripts/jquery-3.6.0.js [33m404[0m 11.460 ms - 167[0m
+[0mGET /user/styles/layout.css [33m404[0m 18.536 ms - 161[0m
+[0mGET /user/scripts/layout.js [33m404[0m 16.715 ms - 161[0m
+[0mGET /user/styles/signup.css [33m404[0m 16.946 ms - 161[0m
+[0mGET /favicon.ico [33m404[0m 11.370 ms - 150[0m
+[0mGET /assets [33m404[0m 42.661 ms - 145[0m
+[0mGET /assets/home_posts.js [33m404[0m 17.761 ms - 159[0m
+[0mGET /assets/home_post.js [33m404[0m 12.449 ms - 158[0m
+[0mGET /assets/scripts/home_post.js [33m404[0m 20.249 ms - 166[0m
+[0mGET /assets/scripts/layout.js [33m404[0m 30.893 ms - 163[0m
+[0mGET /public/assets/scripts/home_post-ad33eff876.js [33m404[0m 16.362 ms - 184[0m
